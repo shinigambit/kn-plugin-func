@@ -1,6 +1,26 @@
 # Change Log
 
 <a name="unreleased"></a>
+## [0.20.0](https://www.github.com/shinigambit/kn-plugin-func/compare/v0.19.0...v0.20.0) (2021-12-03)
+
+
+### Features
+
+* add POD_NAME as an environment variable ([#660](https://www.github.com/shinigambit/kn-plugin-func/issues/660)) ([64473b7](https://www.github.com/shinigambit/kn-plugin-func/commit/64473b7197bb5a821b6724a8b914784891b1a828))
+* automatically start podman service ([#648](https://www.github.com/shinigambit/kn-plugin-func/issues/648)) ([bfdfb76](https://www.github.com/shinigambit/kn-plugin-func/commit/bfdfb760cff575146764f9b841a0cafcb31bcd58))
+* ensure config and repos path exists ([#683](https://www.github.com/shinigambit/kn-plugin-func/issues/683)) ([db9ad07](https://www.github.com/shinigambit/kn-plugin-func/commit/db9ad07c7048361946a8c7d45c549323eee44a58))
+* function creation timestamp ([#651](https://www.github.com/shinigambit/kn-plugin-func/issues/651)) ([1bf17ec](https://www.github.com/shinigambit/kn-plugin-func/commit/1bf17ec976130551da366e75b38f5169b3daed4e))
+* function version migrations ([#664](https://www.github.com/shinigambit/kn-plugin-func/issues/664)) ([ccf0015](https://www.github.com/shinigambit/kn-plugin-func/commit/ccf00152be0ceba1794267f8e03a09cb32fee514))
+* make SpringBoot template SpringNative by default ([#649](https://www.github.com/shinigambit/kn-plugin-func/issues/649)) ([c70a21e](https://www.github.com/shinigambit/kn-plugin-func/commit/c70a21e9a459d726a4118e177835082323698f83))
+
+
+### Bug Fixes
+
+* remove stray manifest.yaml files ([#628](https://www.github.com/shinigambit/kn-plugin-func/issues/628)) ([c810efc](https://www.github.com/shinigambit/kn-plugin-func/commit/c810efc7a4eb0d87f37f3acfafc46c1e4639fdc4))
+* schema-generate should point to `function.go` ([#677](https://www.github.com/shinigambit/kn-plugin-func/issues/677)) ([c7d18c8](https://www.github.com/shinigambit/kn-plugin-func/commit/c7d18c89edaf0a4fcb5c7b684e5e151c217430c2))
+* use default socket path for TCP connections ([#669](https://www.github.com/shinigambit/kn-plugin-func/issues/669)) ([ee96bef](https://www.github.com/shinigambit/kn-plugin-func/commit/ee96bef9aea34c9370cf1f871bc4c558ed449a13))
+* use specific version of paketo builder ([#670](https://www.github.com/shinigambit/kn-plugin-func/issues/670)) ([834e8ae](https://www.github.com/shinigambit/kn-plugin-func/commit/834e8ae46c833d2052171dc8dde23648a1da5112))
+
 ## [0.19.0](https://www.github.com/knative-sandbox/kn-plugin-func/compare/v0.18.0...v0.19.0) (2021-11-03)
 
 
